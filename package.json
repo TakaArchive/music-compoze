@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "compoze",
+      "/private/var/folders/cs/tg8j25xs6vg1d0glds81bxnc0000gn/T/npm.58791/package"
+    ]
+  ],
+  "_from": "compoze@*",
+  "_id": "compoze@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/compoze",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "email": "cupitrh@gmail.com",
+    "name": "tans"
+  },
+  "_npmVersion": "2.7.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "compoze",
+    "raw": "compoze",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/compoze/-/compoze-1.0.0.tgz",
+  "_shasum": "d1ba585492b6e4f9f9bdd03e8ca0acb8d2383b4b",
+  "_shrinkwrap": null,
+  "_spec": "compoze",
+  "_where": "/private/var/folders/cs/tg8j25xs6vg1d0glds81bxnc0000gn/T/npm.58791/package",
+  "author": {
+    "name": "tan"
+  },
+  "dependencies": {
+    "vexflow": "^1.2.27"
+  },
+  "description": "music writer",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d1ba585492b6e4f9f9bdd03e8ca0acb8d2383b4b",
+    "tarball": "http://registry.npmjs.org/compoze/-/compoze-1.0.0.tgz"
+  },
+  "gitHead": "85a902578018e2cd6a7a98a32176ff1e0138c999",
+  "keywords": [
+    "music",
+    "play",
+    "stave",
+    "write"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "tans",
+      "email": "cupitrh@gmail.com"
+    }
+  ],
+  "name": "compoze",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://coding.net/tan/write-music.git"
+  },
+  "scripts": {
+    "start": "server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
