@@ -46,8 +46,27 @@ tabstave notation=true tablature=true
 loading.style.display = 'block'</script><script src="dist/compoze.js"></script><script src="lib/MIDI/MIDI.min.js"></script><script src="lib/inc/Base64.js"></script><script src="lib/inc/base64binary.js"></script><script>instances = new Vex.Flow.TabDiv(document.getElementById('player'),
     {
 //        instrument: 'acoustic_guitar_steel',
-        instrument: 'acoustic_grand_piano',
+        instrument: 'tenor_sax',
         soundfont_url: "http://yuepuso.qiniudn.com/"
+/*        
+  INSTRUMENTS = {
+    "acoustic_grand_piano": 0,
+    "acoustic_guitar_nylon": 24,
+    "acoustic_guitar_steel": 25,
+    "electric_guitar_jazz": 26,
+    "distortion_guitar": 30,
+    "electric_bass_finger": 33,
+    "electric_bass_pick": 34,
+    "trumpet": 56,
+    "brass_section": 61,
+    "soprano_sax": 64,
+    "alto_sax": 65,
+    "tenor_sax": 66,
+    "baritone_sax": 67,
+    "flute": 73,
+    "synth_drum": 118
+  }
+*/      
     }
 );
 document.getElementById('player').style.display = 'block'
